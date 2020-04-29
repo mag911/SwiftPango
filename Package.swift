@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "Pango", targets: ["Pango"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/rhx/SwiftGObject.git", .branch("master"))
+        .package(url: "https://github.com/mag911/SwiftGObject.git", .branch("master"))
     ],
     targets: [
 	.systemLibrary(name: "CPango", pkgConfig: "pango",
